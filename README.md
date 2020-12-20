@@ -63,11 +63,12 @@ After that please zip all the files and send it back to us.
 ## Write Up
 
 For this task I used BeautifulSoup library with the lxml parser. I believe these are relatively common Python libraries.
+To run tests run ```make test``` in project root. 
 
 Completed:
 1. Reuse server connection
 2. Input Validation
-3. Request speed optimization (Mobile Headers and lxml parser)
+3. Optimizations (Mobile Headers and lxml parser)
 4. Logging
 5. Tests
 6. Split code into modules
@@ -80,7 +81,7 @@ Completed:
 Considerations:
 
 1. Scrape purely with regex for better performance (Arguably at the cost of readability, maintainability and extensibility)
-   get_rate_regex method is available in the scraper.py module.
+   get_rate_regex method is available in the scraper.py module. Tests also available inside test_yahoo_scraper.py module.
 2. Write a deployment script (CDK for AWS services)
     
     

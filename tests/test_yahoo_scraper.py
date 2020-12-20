@@ -72,7 +72,6 @@ def test_validate_input_invalid(user_input, expected_error):
         assert expected_error in exc
 
 
-
 @pytest.mark.skip
 @pytest.mark.parametrize(
     "from_ccy, to_ccy",
